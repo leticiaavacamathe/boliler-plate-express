@@ -1,5 +1,5 @@
 require('dotenv').config();
-const mySecret = process.env['MESSAGE_STYLE']
+const mySecret = process.env['MESSAGE_STYLE'];
 let express = require('express');
 let app = express();
 
